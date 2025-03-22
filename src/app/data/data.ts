@@ -16,8 +16,8 @@ export const ourProductsItem: ProductItem[] = [
     image: "/products/2.jpg",
   },
   {
-    title: "Biography, Comedy, Family.",
-    name: "Miss Lucy",
+    title: "Coffee Tamper.",
+    name: "coffee tamper",
     image: "/products/3.jpg",
   },
   {

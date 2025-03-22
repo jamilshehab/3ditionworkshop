@@ -1,7 +1,6 @@
 import {
   AboutSection,
-  Gallery,
-  GetInTouch,
+  FollowUsOnInstagram,
   HomeBanner,
   StickySocialMedia,
 } from "./components";
@@ -13,7 +12,7 @@ export default function Home() {
       <HomeBanner />
       <AboutSection />
       <OurProducts />
-      <GetInTouch />
+      <FollowUsOnInstagram />
       <StickySocialMedia />
     </main>
   );

@@ -2,7 +2,7 @@ import Navbar from "./Header/Navbar";
 import HomeBanner from "./Shared/HomeBanner";
 import AboutSection from "./Shared/AboutSection";
 import Gallery from "./Shared/Gallery";
-import GetInTouch from "./Shared/GetInTouch";
+import FollowUsOnInstagram from "./Shared/FollowUsOnInstagram";
 import Footer from "./Footer/Footer";
 import Linkedin from "./Footer/Linkedin";
 import Whatsapp from "./Footer/Whatsapp";
@@ -12,7 +12,7 @@ export {
   HomeBanner,
   AboutSection,
   Gallery,
-  GetInTouch,
+  FollowUsOnInstagram,
   Footer,
   Linkedin,
   Whatsapp,
