@@ -75,5 +75,11 @@ p {
 
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a,
 #topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
-  color: #a7a2f2 !important;
+  color: #3e3e3ea1 !important;
+}
+.bg-primary {
+  background-color: #3e3e3ea1;
+}
+.border-primary {
+  color: #3e3e3ea1;
 }

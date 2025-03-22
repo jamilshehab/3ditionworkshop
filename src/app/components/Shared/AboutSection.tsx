@@ -29,19 +29,19 @@ const AboutSection: React.FC = () => {
                   Why Choose Us
                 </h2>
                 <p className="text-slate-600 max-w-xl text-justify">
-                  At PrintCraft Studio, we believe in the power of creativity
-                  and innovation. We specialize in turning unique ideas into
-                  reality with our high-quality 3D-printed designs. Our products
-                  are more than just items—they are expressions of
-                  craftsmanship, precision, and imagination. From custom
-                  creations to functional art pieces, every product is
-                  thoughtfully crafted to add value and style to your life. With
-                  a focus on quality and detail, PrintCraft Studio offers a wide
-                  range of 3D-printed designs that are perfect for enhancing any
-                  space. Whether you're looking for something functional,
-                  decorative, or completely personalized, we’re here to bring
-                  your ideas to life. Let us help you discover a new world of
-                  possibilities through the art of 3D printing.
+                  At 3dition, we believe in the power of creativity and
+                  innovation. We specialize in turning unique ideas into reality
+                  with our high-quality 3D-printed designs. Our products are
+                  more than just items—they are expressions of craftsmanship,
+                  precision, and imagination. From custom creations to
+                  functional art pieces, every product is thoughtfully crafted
+                  to add value and style to your life. With a focus on quality
+                  and detail, 3dition offers a wide range of 3D-printed designs
+                  that are perfect for enhancing any space. Whether you're
+                  looking for something functional, decorative, or completely
+                  personalized, we’re here to bring your ideas to life. Let us
+                  help you discover a new world of possibilities through the art
+                  of 3D printing.
                 </p>
               </div>
             </FadeInUpAnimation>

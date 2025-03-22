@@ -34,17 +34,16 @@ const HomeBanner = () => {
                 <div className="w-full text-center lg:text-start">
                   <FadeInLeftAnimation>
                     <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">
-                      Your Vision, Their Mission <br />
-                      The Vital Role of Eye Doctors{" "}
+                      Limitless Possibilities, Perfect Creations
                     </h2>
                   </FadeInLeftAnimation>
                   <FadeInLeftAnimation>
                     <div className="mt-8">
                       <Link
                         href="#"
-                        className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center   hover:bg-indigo-700   hover:border-indigo-700 text-white rounded-md"
+                        className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-primary  hover:bg-red-700   hover:border-red-700 text-white rounded-md"
                       >
-                        Enroll Now{" "}
+                        Contact Us{" "}
                       </Link>
                     </div>
                   </FadeInLeftAnimation>
@@ -67,17 +66,16 @@ const HomeBanner = () => {
                 <div className="w-full text-center lg:text-start">
                   <FadeInLeftAnimation>
                     <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">
-                      Beyond the Lens <br />
-                      How Eye Doctors Protect Your Sight!
+                      3D Printing the Future
                     </h2>
                   </FadeInLeftAnimation>
                   <FadeInLeftAnimation>
                     <div className="mt-8">
                       <Link
                         href="#"
-                        className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center    bg-indigo-700   hover:border-indigo-700 text-white rounded-md"
+                        className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center    bg-primary  hover:bg-red-700   hover:border-red-700 text-white rounded-md"
                       >
-                        Enroll Now{" "}
+                        Contact Us{" "}
                       </Link>
                     </div>
                   </FadeInLeftAnimation>

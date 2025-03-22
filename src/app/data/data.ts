@@ -3,7 +3,11 @@ interface ProductItem {
   image: string;
   name: string;
 }
-
+interface InstagramFollow {
+  title: string;
+  image: string;
+  name: string;
+}
 export const ourProductsItem: ProductItem[] = [
   {
     title: "T Rex",
@@ -49,4 +53,27 @@ export const gymImage = [
   "/gallery/2.jpg",
   "/gallery/3.jpg",
   "/gallery/4.jpg",
+];
+
+export const followUsData: InstagramFollow[] = [
+  {
+    title: "T Rex",
+    name: "T Rex Printing",
+    image: "/products/1.jpg",
+  },
+  {
+    title: "Horse Sculpture 3d Printed",
+    name: "Horse Sculpture",
+    image: "/products/2.jpg",
+  },
+  {
+    title: "Coffee Tamper.",
+    name: "coffee tamper",
+    image: "/products/3.jpg",
+  },
+  {
+    title: "Skull Leg 3d Printed.",
+    name: "Skull Leg",
+    image: "/products/4.jpg",
+  },
 ];
