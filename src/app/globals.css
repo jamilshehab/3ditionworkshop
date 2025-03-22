@@ -4,23 +4,76 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+p {
+  font-size: 18px !important;
+}
+.s-soft {
+  position: fixed;
+  top: 400px;
+  right: 14px;
+  z-index: 1000;
+  transition: all linear 0.2s;
+}
+
+.s-item {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 7px;
+  color: white;
+  font-size: 25px;
+  line-height: 60px;
+  text-align: center;
+  transition: all linear 0.2s;
+}
+.s-item i {
+  text-align: center;
+}
+.facebook {
+  background-color: #3b5999;
+}
+.twitter {
+  background-color: #14171a;
+}
+.print {
+  background-color: #de3c7d;
+}
+.pinterest {
+  background-color: #bd081c;
+}
+.linkedin {
+  background-color: #0e76a8;
+}
+.instagram {
+  background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.home-section .swiper-wrapper {
+  padding: 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .s-soft {
+    position: fixed;
+    top: 290px;
+    right: 14px;
+    z-index: 1000;
+    transition: all linear 0.2s;
+  }
+}
+
+#topnav.nav-sticky .navigation-menu.nav-light > li:hover > a,
+#topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
+  color: #a7a2f2 !important;
 }
