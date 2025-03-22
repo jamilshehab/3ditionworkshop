@@ -41,7 +41,7 @@ const HomeBanner = () => {
                     <div className="mt-8">
                       <Link
                         href="#"
-                        className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-primary  hover:bg-red-700   hover:border-red-700 text-white rounded-md"
+                        className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center    bg-primary  hover:bg-red-700   hover:border-red-700 text-white rounded-md"
                       >
                         Contact Us{" "}
                       </Link>
