@@ -24,7 +24,20 @@ const FollowUsOnInstagram = () => {
           </FadeInUpAnimation>
         </div>
         <FadeInDownAnimation>
-          <Swiper spaceBetween={0} slidesPerView={4}>
+          <Swiper
+            spaceBetween={0}
+            slidesPerView={4}
+            breakpoints={{
+              576: {
+                // width: 576,
+                slidesPerView: 1,
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 1,
+              },
+            }}
+          >
             {followUsData.map((item: any) => (
               <SwiperSlide>
                 <div className="w-64 bg-red-100 relative group">
