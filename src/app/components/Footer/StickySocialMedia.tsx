@@ -23,7 +23,7 @@ const StickySocialMedia = () => {
         </span>
       </Link> */}
       <Link
-        href="https://twitter.com/?lang=en"
+        href="https://www.tiktok.com/@3dition_workshop?_t=ZS-8uvQ8eY3Hqa&_r=1"
         className="s-item twitter"
         target="blank"
         rel="nofollow"
