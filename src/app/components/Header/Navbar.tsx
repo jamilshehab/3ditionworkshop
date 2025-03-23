@@ -186,7 +186,7 @@ export default function Navbar(props: any) {
             </li>
             <li className={activeSection === "#portfolio" ? "active" : ""}>
               <Link href="#contact" className="sub-menu-item">
-                Contact Us
+                Follow Us
               </Link>
             </li>
           </ul>
