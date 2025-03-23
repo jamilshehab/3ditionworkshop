@@ -54,7 +54,12 @@ const FollowUsOnInstagram = () => {
                     className="w-full h-auto"
                   />
                   <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 flex justify-center items-center text-xl bg-gray-800 text-white font-semibold">
-                    <Link href="#" className="text-5xl">
+                    <Link
+                      href="https://www.instagram.com/3dition_workshop/"
+                      className="text-5xl"
+                      target="blank"
+                      rel="nofollow"
+                    >
                       <FaInstagram />
                     </Link>
                   </div>
