@@ -184,8 +184,8 @@ export default function Navbar(props: any) {
                 Our Gallery
               </Link>
             </li>
-            <li className={activeSection === "#portfolio" ? "active" : ""}>
-              <Link href="#contact" className="sub-menu-item">
+            <li className={activeSection === "#follow" ? "active" : ""}>
+              <Link href="#follow" className="sub-menu-item">
                 Follow Us
               </Link>
             </li>

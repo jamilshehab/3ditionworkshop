@@ -12,7 +12,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const FollowUsOnInstagram = () => {
   return (
-    <section className="relative py-16 bg-slate-100" id="portfolio">
+    <section className="relative py-16 bg-slate-100" id="follow">
       <div className="container">
         <div className="grid grid-cols-1 pb-8 text-center">
           <FadeInUpAnimation>
